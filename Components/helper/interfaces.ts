@@ -7,3 +7,10 @@ export interface DataBase {
     y: number,
     bg: number
 }
+
+export interface DataBaseSimptoms {
+    img: string;
+    text: string;
+    top: number;
+    right: number;
+}
