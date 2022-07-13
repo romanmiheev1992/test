@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+    color: var(--dark_text);
+}
+
+.header p:first-child {
+    /* font-style: Roboto; */
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.header p:last-child {
+    /* font-style: Roboto; */
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 4px;
+}

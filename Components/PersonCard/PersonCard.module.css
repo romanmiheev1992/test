@@ -1,0 +1,67 @@
+.person_card {
+    width: 578px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 60px 350px;
+    grid-template-columns: 1fr;
+}
+
+.person_card p{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    text-align: center;
+    color: var(--light_text)
+}
+
+.img {
+    justify-self: center;
+    width: 320px;
+    height: 320px;
+    box-shadow: 0px 4px 25px 0px rgba(6, 140, 166, 0.25); 
+    background-position: center;
+    border: none !important;
+    border-radius: none !important;
+}
+
+.person_card div {
+    font-size: 21px;
+    line-height: 27px;
+    color: var(--dark_text);
+    background: var(--white);
+    border-radius: 4px;
+    margin-top: 40px;
+    border: 2px solid var(--light_text);
+    box-shadow: 0px 4px 4px 0px rgb(6, 140, 166, .31);
+}
+
+.text_block {
+    height: 390px;
+    width: 100%;
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.text_block div {
+    margin-top: 0;
+}
+
+.text_block p {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--darck_text);
+    line-height: 27px;
+    margin: 13px;
+}
+
+.persons_block {
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+}

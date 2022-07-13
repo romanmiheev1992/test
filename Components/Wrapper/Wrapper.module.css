@@ -1,0 +1,10 @@
+.wrapper {
+    width: 1264px;
+    height: 2021px;
+    margin: 0 auto;
+    background-image: linear-gradient(var(--linear_background_up), var(--linear_background_middle), var(--linear_background_bottom));
+    display: grid;
+    grid-template-rows: 150px 900px 500px;
+    grid-template-columns: 1fr;
+}
+

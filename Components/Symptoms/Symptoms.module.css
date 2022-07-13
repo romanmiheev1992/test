@@ -1,0 +1,77 @@
+.symptoms {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: grid;
+   cursor: pointer;
+}
+
+.symptoms_img {
+    grid-area: img;
+}
+
+.p {
+    color: var(--dark_text);
+    font-weight: 700;
+    font-size: 18px;
+    grid-area: text;
+    box-sizing: border-box;
+
+}
+
+.up {
+    transform: translate(10px, -60px);
+}
+
+.right {
+    transform: translate(120px, 10px);
+    width: 250px;
+}
+
+.bottom {
+    transform: translate(-50px, 120px);
+    text-align: center;
+    width: 200px;
+}
+
+.left {
+    transform: translate(-140px, 20px);
+    width: 150px;
+}
+
+.symptoms div {
+    width: 110px;
+    height: 110px;
+    position: relative;
+}
+
+.symptoms img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height:100% ;
+    box-sizing: border-box;
+}
+
+.symptoms svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 120px;
+    height: 120px;
+
+}
+
+.show {
+    animation: appear .8s ease-in-out forwards !important;
+}
+.hide {
+    display: none;
+}
+
+@keyframes appear {
+    from {display: block; opacity: 0;}
+    to {display: block; opacity: 1;}
+}
